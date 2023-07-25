@@ -1,11 +1,10 @@
-
 function BenefitsSection() {
   return (
     <div className="mt-12">
       <div className="w-[673px]  text-orange-500 text-[22px] font-normal">
         Benefits
       </div>
-      <div className="w-10/12 w-full">
+      <div className="w-10/12 ">
         <span className="text-white text-[32px] font-bold">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
