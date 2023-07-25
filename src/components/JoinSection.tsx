@@ -1,4 +1,3 @@
-import React from "react";
 import { img3 } from "../assets";
 function JoinSection() {
   return (

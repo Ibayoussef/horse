@@ -1,4 +1,3 @@
-import React from "react";
 import IntroSection from "../components/IntroSection";
 import Container from "../components/Container";
 import BannerSection from "../components/BannerSection";
