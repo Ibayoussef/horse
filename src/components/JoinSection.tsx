@@ -1,4 +1,5 @@
 import { img3 } from "../assets";
+import { Link } from "react-router-dom";
 function JoinSection() {
   return (
     <div className="relative w-full h-full mt-12">
@@ -13,11 +14,13 @@ function JoinSection() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </span>
         </div>
-        <button className="w-[250px] h-[50px] mt-8 relative  bg-orange-500 border rounded-[5px] shadow hover:text-orange-500 border-orange-500 hover:bg-transparent transition-all">
-          <p className="text-base font-bold text-neutral-900 hover:text-orange-500">
-            Take the test
-          </p>
-        </button>
+        <Link to="horstest">
+          <button className="w-[250px] h-[50px] mt-8 relative  bg-orange-500 border rounded-[5px] shadow hover:text-orange-500 border-orange-500 hover:bg-transparent transition-all">
+            <p className="text-base font-bold text-neutral-900 hover:text-orange-500">
+              Take the test
+            </p>
+          </button>
+        </Link>
       </div>
     </div>
   );

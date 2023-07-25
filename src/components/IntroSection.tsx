@@ -1,4 +1,5 @@
 import { img1 } from "../assets";
+import { Link } from "react-scroll";
 function IntroSection() {
   return (
     <div className="flex flex-row items-center justify-between">
@@ -25,11 +26,19 @@ function IntroSection() {
           non blandit massa. Tempor orci eu lobortis elementum nibh tellus
           molestie nunc. Sit amet risus nullam eget felis eget nunc lobortis.
         </p>
-        <button className="w-[250px] h-[50px] mt-8 relative  bg-orange-500 border rounded-[5px] shadow hover:text-orange-500 border-orange-500 hover:bg-transparent transition-all">
-          <p className="text-base font-bold text-neutral-900 hover:text-orange-500">
-            Check out the Rest
-          </p>
-        </button>
+        <Link
+          to="targetSection"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <button className="w-[250px] h-[50px] mt-8 relative  bg-orange-500 border rounded-[5px] shadow hover:text-orange-500 border-orange-500 hover:bg-transparent transition-all">
+            <p className="text-base font-bold text-neutral-900 hover:text-orange-500">
+              Check out the Rest
+            </p>
+          </button>
+        </Link>
       </div>
       <div className="relative hidden w-1/2 h-screen md:block">
         <img
