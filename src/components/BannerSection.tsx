@@ -1,4 +1,3 @@
-
 import { img2 } from "../assets";
 function BannerSection() {
   return (
