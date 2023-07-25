@@ -7,7 +7,6 @@ function Test() {
   const [currentAnswer, setCurrentAnswer] = useState("");
   const [done, setDone] = useState(false);
   const handleNext = () => {
-    console.log(done);
     if (questionId >= 19) {
       setDone(true);
     } else {
