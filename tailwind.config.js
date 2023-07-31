@@ -4,6 +4,9 @@ export default {
   mode: "jit",
   theme: {
     extend: {
+      colors: {
+        primary: "#D90000",
+      },
       keyframes: {
         colors: {
           "0%": { color: "#ff8300", opacity: "1" },
