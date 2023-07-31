@@ -2,7 +2,7 @@ import { img3, end } from "../assets";
 import { Link } from "react-router-dom";
 function JoinSection() {
   return (
-    <div className="relative w-full h-full h-[1451px] mt-12">
+    <div className="relative w-full h-[1451px] mt-12">
       <div className="relative flex flex-row items-center justify-between w-full h-14">
         <div className=" text-primary sm:text-[28px] md:text-[40px] lg:text-[40px] xl:text-[50px] font-bold">
           Why Join Us?
