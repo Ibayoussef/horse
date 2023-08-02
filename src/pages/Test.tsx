@@ -25,7 +25,7 @@ function Test() {
   }, [correctAnswers]);
   return !done ? (
     <div className="px-[76px] pt-[229px]">
-      <h2 className="w-[673px] h-[65px] text-orange-500 text-[50px] font-normal">
+      <h2 className="w-[673px] h-[65px] text-primary text-[50px] font-normal">
         Prove you’re worthy
       </h2>
       <div className="text-5xl mt-[35px] font-normal text-white mb-[50px]">
@@ -36,8 +36,8 @@ function Test() {
           <div key={option} className="flex flex-row gap-4">
             <div
               onClick={() => setCurrentAnswer(option)}
-              className={`w-[50px] h-[50px] flex justify-center items-center cursor-pointer rounded-lg border border-orange-500 transition-all hover:border-2 ${
-                option === currentAnswer ? "bg-orange-500" : ""
+              className={`w-[50px] h-[50px] flex justify-center items-center cursor-pointer rounded-lg border border-primary transition-all hover:border-2 ${
+                option === currentAnswer ? "bg-primary" : ""
               }`}
             >
               <img src={check} alt="check" />
@@ -49,7 +49,7 @@ function Test() {
 
       <button
         onClick={() => handleNext()}
-        className="w-[250px] h-[50px] mt-8 relative  bg-orange-500 border rounded-[5px] shadow hover:text-orange-500 border-orange-500 hover:bg-transparent transition-all"
+        className="w-[250px] h-[50px] mt-8 relative  bg-primary border rounded-[5px] shadow hover:text-orange-500 border-orange-500 hover:bg-transparent transition-all"
       >
         <p className="text-base font-bold text-neutral-900 hover:text-orange-500">
           Next
